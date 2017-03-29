@@ -1,0 +1,29 @@
+@keyframes running {
+  0% {
+    right: 180px; }
+  50% {
+    right: 0; }
+  100% {
+    right: 180px; } }
+.progress-cont {
+  position: relative;
+  width: 200px;
+  height: 20px;
+  background-color: #c8c8c8;
+  margin-top: 1em; }
+  .progress-cont .progress {
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    background-color: blue;
+    right: 180px;
+    animation-name: running;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; }
+
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%; }
+
+/*# sourceMappingURL=app.component.css.map */

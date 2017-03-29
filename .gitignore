@@ -1,0 +1,7 @@
+node_modules
+app/**/*.js
+app/**/*.js.map
+.idea
+npm-debug.log.859828415
+yarn-error.log
+yarn.lock
